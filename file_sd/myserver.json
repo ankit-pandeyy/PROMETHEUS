@@ -1,0 +1,43 @@
+[
+{
+    "labels": {
+      "job": "MY_SERVERS",
+      "Hostname": "Tomcat-2",
+      "Environment": "MY_Production"
+    },
+    "targets": [
+      "172.31.40.74:9100"
+    ]
+  },
+{
+    "labels": {
+      "job": "MY_SERVERS",
+      "Hostname": "Prometheus",
+      "Environment": "MY_Production"
+    },
+    "targets": [
+      "172.31.40.211:9100"
+    ]
+  },
+{
+    "labels": {
+      "job": "MY_SERVERS",
+      "Hostname": "JENKINS",
+      "Environment": "MY_Production"
+    },
+    "targets": [
+      "172.31.3.198:9100"
+    ]
+  },
+{
+    "labels": {
+      "job": "MY_SERVERS",
+      "Hostname": "TOMCAT",
+      "Environment": "My_Production"
+    },
+    "targets": [
+      "172.31.14.154:9100"
+    ]
+}
+]
+
